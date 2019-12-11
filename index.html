@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <!-- Name: Ell/Jo
+    Date: Too Little, Too Late
+    Time: 12:00 AM
+    Purpose: Work to make it happen. -->
+    <title>Student Survey</title>
+    <link href="styles/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+<form id='student_survey' action='success.html' method='get'>
+    <h2>Extra Credit Feedback Form:</h2>
+    <p>Fill out the form below and earn 5 extra points!<br>
+    (Must fill out entire form)</p>
+
+    <br>
+
+    <label> Enter First Name:
+        <input id='fname' name='fname' size='30'>
+    </label>
+    <span id="error-fname" class="hidden">*</span>
+
+    <br>
+    <br>
+
+    <label> Enter Last Name: </label>
+    <input id='lname' name='lname' size='30'>
+    <span id="error-lname" class="hidden">*</span>
+
+    <br>
+    <br>
+
+    <label> Student ID: </label>
+    <input id='SID' name='SID' size='35'>
+    <span id="error-SID" class="hidden">*</span>
+
+    <br>
+    <br>
+
+    <label> Preferred Class Size: </label>
+    <select id='size' name='size' >
+        <option value='none'>Choose Class Size</option>
+        <option value='small'>0-10</option>
+        <option value='medium'>10-20</option>
+        <option value='large'>20+</option>
+    </select>
+    <span id="error-size" class="hidden">*</span>
+
+    <br>
+    <br>
+
+    <label> Did you grow as a person?:     <span id="error-methods" class="hidden">*</span> </label>
+
+    <br>
+    <br>
+
+    <input type="radio" name="methods" value="yes">Yes<br>
+    <input type="radio" name="methods" value="no">No<br>
+
+    <br>
+
+    <label> What have you learned?: </label>
+    <span id="error-special" class="hidden">*</span>
+
+    <br>
+
+    <textarea id='special' name='special' rows='10' cols='51'></textarea>
+   
+    <br>
+    <br>
+
+    <label>
+        <input type="checkbox" id="checkbox" name="terms"> Check this, for security's sake.
+    </label>
+    <span id="error-checkbox" class="hidden">*</span>
+
+    <br>
+    <br>
+
+    <input type='submit' value='Submit Order'>
+
+
+
+
+</form>
+
+<script src="scripts/script.js"></script>
+
+</body>
+</html>

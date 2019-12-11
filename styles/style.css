@@ -1,0 +1,39 @@
+.hidden {
+    display:none;
+}
+.error {
+    color:rgb(38, 116, 139);
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid tomato;
+}
+
+body {
+  color: tomato
+}
+
+input[type=submit] {
+  background-color: white;
+  color: tomato;
+  border: 1px solid tomato;
+}
+
+#special {
+  background-color: white;
+  color: tomato;
+  border: 1px solid tomato;
+}
+
+#size {
+  background-color: white;
+  color: tomato;
+  border: 1px solid tomato;
+}
